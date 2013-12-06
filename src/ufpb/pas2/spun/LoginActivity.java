@@ -4,6 +4,7 @@ import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 import android.annotation.TargetApi;
 import android.app.Activity;
+import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Build;
 import android.os.Bundle;
@@ -11,7 +12,9 @@ import android.text.TextUtils;
 import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.View;
+import android.view.View.OnClickListener;
 import android.view.inputmethod.EditorInfo;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
@@ -84,7 +87,19 @@ public class LoginActivity extends Activity {
 						attemptLogin();
 					}
 				});
+		
+		Button signin = (Button)findViewById(R.id.sign_in_button);
+		signin.setOnClickListener(new LinkMainActivity());		
 	}
+	
+	// link for app menu
+	private class LinkMainActivity implements OnClickListener{
+		@Override
+		public void onClick(View b) {
+			Intent i = new Intent(LoginActivity.this, MainActivity.class);
+			startActivity(i);	
+		}
+    }
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
