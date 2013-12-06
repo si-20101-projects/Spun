@@ -36,7 +36,7 @@
             android:label="@string/title_activity_cadastro_vendedor" >
         </activity>
         <activity
-            android:name="ufpb.pas2.spun.NovoCliente"
+            android:name="ufpb.pas2.spun.CadastroClienteActivity"
             android:label="@string/novo_cliente_activity_name" >
         </activity>
         <activity

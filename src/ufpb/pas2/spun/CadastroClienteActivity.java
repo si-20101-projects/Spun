@@ -4,12 +4,12 @@ import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
 
-public class NovoCliente extends Activity {
+public class CadastroClienteActivity extends Activity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_novo_cliente);
+		setContentView(R.layout.activity_cadastro_cliente);
 	}
 
 	@Override

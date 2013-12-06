@@ -24,7 +24,7 @@ public class GerenciarClienteActivity extends Activity {
 		
 		@Override
 		public void onClick(View b) {
-			Intent i = new Intent(GerenciarClienteActivity.this, NovoCliente.class);
+			Intent i = new Intent(GerenciarClienteActivity.this, CadastroClienteActivity.class);
 			startActivity(i);
 			
 		}
