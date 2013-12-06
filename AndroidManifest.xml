@@ -28,17 +28,20 @@
             android:windowSoftInputMode="adjustResize|stateVisible" >
         </activity>
         <activity
-            android:name="ufpb.pas2.spun.GerenciarCliente"
+            android:name="ufpb.pas2.spun.GerenciarClienteActivity"
             android:label="@string/title_activity_gerenciar_cliente" >
-        </activity>        
+        </activity>
         <activity
             android:name="ufpb.pas2.spun.CadastroVendedorActivity"
             android:label="@string/title_activity_cadastro_vendedor" >
-
         </activity>
         <activity
             android:name="ufpb.pas2.spun.NovoCliente"
             android:label="@string/novo_cliente_activity_name" >
+        </activity>
+        <activity
+            android:name="ufpb.pas2.spun.GerenciarVendedorActivity"
+            android:label="@string/title_activity_gerenciar_vendedor" >
         </activity>
     </application>
 

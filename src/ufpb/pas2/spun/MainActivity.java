@@ -29,7 +29,7 @@ public class MainActivity extends Activity {
 	private class LinkGerClienteActivity implements OnClickListener{
 		@Override
 		public void onClick(View b) {
-			Intent i = new Intent(MainActivity.this, GerenciarCliente.class);
+			Intent i = new Intent(MainActivity.this, GerenciarClienteActivity.class);
 			startActivity(i);
 			
 		}
