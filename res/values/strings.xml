@@ -4,5 +4,12 @@
     <string name="app_name">spun</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
+    <string name="btn_venda">Gerenciar Venda</string>
+    <string name="btn_cliente">Gerenciar Cliente</string>
+    <string name="btn_produto">Gerenciar Produto</string>
+    <string name="btn_contas">Contas a Receber</string>
+    <string name="btn_dados_vendedor">Alterar dados do Vendedor</string>
+    <string name="btn_notificacoes">Controlar Notificações</string>
+    <string name="title_activity_gerenciar_cliente">GerenciarCliente</string>
 
 </resources>
