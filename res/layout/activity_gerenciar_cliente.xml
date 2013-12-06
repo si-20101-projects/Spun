@@ -8,11 +8,20 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".GerenciarCliente" >
 
+    <!-- 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content" >
-    </LinearLayout>
 
+        <SearchView
+            android:id="@+id/searchView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        </SearchView>
+
+    </LinearLayout>
+	 -->
+	 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
