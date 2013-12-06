@@ -13,7 +13,6 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
-        
         <activity
             android:name="ufpb.pas2.spun.LoginActivity"
             android:label="@string/title_activity_login" >
@@ -23,18 +22,23 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        
         <activity
             android:name="ufpb.pas2.spun.MainActivity"
             android:label="@string/main_activity_name"
-            android:windowSoftInputMode="adjustResize|stateVisible" >           
+            android:windowSoftInputMode="adjustResize|stateVisible" >
         </activity>
-        
-		<activity
-			android:name="ufpb.pas2.spun.GerenciarCliente"
-            android:label="@string/title_activity_gerenciar_cliente" > 
-		</activity>
-		        
+        <activity
+            android:name="ufpb.pas2.spun.GerenciarCliente"
+            android:label="@string/title_activity_gerenciar_cliente" >
+        </activity>
+        <activity
+            android:name="ufpb.pas2.spun.SettingsActivity"
+            android:label="@string/title_activity_settings" >
+        </activity>
+        <activity
+            android:name="ufpb.pas2.spun.CadastroVendedorActivity"
+            android:label="@string/title_activity_cadastro_vendedor" >
+        </activity>
     </application>
 
 </manifest>
