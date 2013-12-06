@@ -27,9 +27,9 @@
             android:label="@string/title_activity_login"
             android:windowSoftInputMode="adjustResize|stateVisible" >           
         </activity>
-		<activity>
+		<activity
 			android:name="ufpb.pas2.spun.GerenciarCliente"
-            android:label="@string/title_activity_gerenciar_cliente" 
+            android:label="@string/title_activity_gerenciar_cliente" > 
 		</activity>        
     </application>
 
