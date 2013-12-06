@@ -13,5 +13,6 @@
     <string name="btn_notificacoes">Controlar Notificações</string>
     <string name="title_activity_gerenciar_cliente">GerenciarCliente</string>
     <string name="title_activity_cadastro_vendedor">CadastroVendedorActivity</string>
+    <string name="title_activity_novo_cliente">NovoCliente</string>
 
 </resources>

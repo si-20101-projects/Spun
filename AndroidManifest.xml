@@ -5,7 +5,7 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="8"
+        android:minSdkVersion="19"
         android:targetSdkVersion="19" />
 
     <application
@@ -30,14 +30,15 @@
         <activity
             android:name="ufpb.pas2.spun.GerenciarCliente"
             android:label="@string/title_activity_gerenciar_cliente" >
-        </activity>
-        <activity
-            android:name="ufpb.pas2.spun.SettingsActivity"
-            android:label="@string/title_activity_settings" >
-        </activity>
+        </activity>        
         <activity
             android:name="ufpb.pas2.spun.CadastroVendedorActivity"
             android:label="@string/title_activity_cadastro_vendedor" >
+
+        </activity>
+        <activity
+            android:name="ufpb.pas2.spun.NovoCliente"
+            android:label="@string/novo_cliente_activity_name" >
         </activity>
     </application>
 
