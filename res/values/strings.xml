@@ -12,5 +12,6 @@
     <string name="btn_dados_vendedor">Alterar dados do Vendedor</string>
     <string name="btn_notificacoes">Controlar Notificações</string>
     <string name="title_activity_gerenciar_cliente">GerenciarCliente</string>
+    <string name="title_activity_novo_cliente">NovoCliente</string>
 
 </resources>

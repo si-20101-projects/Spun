@@ -8,7 +8,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".GerenciarCliente" >
 
-    <!-- 
+ 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content" >
@@ -20,7 +20,7 @@
         </SearchView>
 
     </LinearLayout>
-	 -->
+
 	 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -43,11 +43,11 @@
         android:layout_below="@+id/linearLayout1" >
 
         <Button
-            android:id="@+id/button1"
+            android:id="@+id/add_cliente"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="23dp"
-            android:text="Button" />
+            android:text="Adicionar Cliente" />
     </LinearLayout>
 
 </RelativeLayout>
