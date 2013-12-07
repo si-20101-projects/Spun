@@ -8,43 +8,39 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".GerenciarClienteActivity" >
 
- 
     <LinearLayout
+        android:id="@+id/linearLayout2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" >
 
         <SearchView
             android:id="@+id/searchView1"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content" >
         </SearchView>
-
     </LinearLayout>
 
-	 
     <LinearLayout
+        android:id="@+id/linearLayout1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerVertical="true"
-        android:layout_marginTop="112dp" android:id="@+id/linearLayout1">
+        android:layout_alignLeft="@+id/linearLayout2"
+        android:layout_below="@+id/linearLayout2" >
 
-        
-        
         <ListView
             android:id="@+id/list"
             android:layout_width="match_parent"
-            android:layout_height="262dp"
-            android:layout_weight="1" >                       
+            android:layout_height="313dp" >
         </ListView>
-        
-        
+
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
         android:layout_alignRight="@+id/linearLayout1"
-        android:layout_below="@+id/linearLayout1" >
+        android:layout_marginBottom="14dp" >
 
         <Button
             android:id="@+id/add_cliente"
@@ -52,6 +48,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="23dp"
             android:text="Adicionar Cliente" />
+
     </LinearLayout>
 
 </RelativeLayout>

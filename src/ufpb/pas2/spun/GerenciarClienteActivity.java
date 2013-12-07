@@ -19,7 +19,8 @@ public class GerenciarClienteActivity extends Activity {
 
         ListView lista = (ListView) findViewById(R.id.list);
 
-        String[] strings = new String[] { "João Helis Bernardo", "Smith Ascari", "Juan Duarte", "Raoni Kulesza" };
+        String[] strings = new String[] { "João Helis Bernardo", "Smith Ascari", "Juan Duarte", "Raoni Kulesza",
+        		                           "Projeto Avançado II", "Projeto Avançado I"};
 
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1,strings);
 
