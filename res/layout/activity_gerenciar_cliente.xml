@@ -31,14 +31,13 @@
         
         
         <ListView
-            android:id="@+id/listView1"
+            android:id="@+id/list"
             android:layout_width="match_parent"
             android:layout_height="262dp"
-            android:layout_weight="1" >
-            
-
-            
+            android:layout_weight="1" >                       
         </ListView>
+        
+        
     </LinearLayout>
 
     <LinearLayout

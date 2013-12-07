@@ -1,24 +1,33 @@
 package ufpb.pas2.spun;
 
-import android.os.Bundle;
 import android.app.Activity;
-import android.content.DialogInterface;
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.Menu;
 import android.view.View;
 import android.view.View.OnClickListener;
-import android.content.Intent;
-import android.view.Menu;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.ListView;
 
 public class GerenciarClienteActivity extends Activity {
-
+	
 	@Override
-	protected void onCreate(Bundle savedInstanceState) {
-		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_gerenciar_cliente);
-		
-		Button addCliente = (Button)findViewById(R.id.add_cliente);
+    public void onCreate(Bundle savedInstance) {
+        super.onCreate(savedInstance);
+        setContentView(R.layout.activity_gerenciar_cliente);
+
+        ListView lista = (ListView) findViewById(R.id.list);
+
+        String[] strings = new String[] { "João Helis Bernardo", "Smith Ascari", "Juan Duarte", "Raoni Kulesza" };
+
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1,strings);
+
+        lista.setAdapter(adapter);
+        
+        Button addCliente = (Button)findViewById(R.id.add_cliente);
 		addCliente.setOnClickListener(new LinkNovoClienteActivity());
-	}
+    }
 	
 	private class LinkNovoClienteActivity implements OnClickListener{
 		
