@@ -2,8 +2,12 @@ package ufpb.pas2.spun;
 
 import android.os.Bundle;
 import android.app.Activity;
+import android.content.Intent;
 import android.view.Menu;
+import android.view.View;
+import android.view.View.OnClickListener;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.ListView;
 
 public class GerenciarVendedorActivity extends Activity {
@@ -21,6 +25,9 @@ public class GerenciarVendedorActivity extends Activity {
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1,strings);
 
         lista.setAdapter(adapter);
+        
+        Button addVendedor = (Button) findViewById(R.id.addVendedor);
+        addVendedor.setOnClickListener(new LinkCadastrarVendedorActivity());
 	}
 
 	@Override
@@ -28,6 +35,16 @@ public class GerenciarVendedorActivity extends Activity {
 		// Inflate the menu; this adds items to the action bar if it is present.
 		getMenuInflater().inflate(R.menu.gerenciar_vendedor, menu);
 		return true;
+	}
+	
+	private class LinkCadastrarVendedorActivity implements OnClickListener{
+
+		@Override
+		public void onClick(View b) {
+			Intent i = new Intent(GerenciarVendedorActivity.this, CadastroVendedorActivity.class);
+			startActivity(i);
+
+		}
 	}
 
 }

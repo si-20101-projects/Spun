@@ -17,6 +17,9 @@ public class MainActivity extends Activity {
 		
 		Button link = (Button)findViewById(R.id.gerCliente);
 		link.setOnClickListener(new LinkGerClienteActivity());
+		
+		Button gerVendedor = (Button)findViewById(R.id.addVendedor);
+		gerVendedor.setOnClickListener(new LinkGerVendedorActivity());
 	}
 
 	@Override
@@ -30,6 +33,16 @@ public class MainActivity extends Activity {
 		@Override
 		public void onClick(View b) {
 			Intent i = new Intent(MainActivity.this, GerenciarClienteActivity.class);
+			startActivity(i);
+			
+		}
+    }
+	
+	// link for class management client
+	private class LinkGerVendedorActivity implements OnClickListener{
+		@Override
+		public void onClick(View b) {
+			Intent i = new Intent(MainActivity.this, GerenciarVendedorActivity.class);
 			startActivity(i);
 			
 		}

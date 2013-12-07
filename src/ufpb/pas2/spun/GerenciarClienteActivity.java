@@ -26,7 +26,7 @@ public class GerenciarClienteActivity extends Activity {
 
         lista.setAdapter(adapter);
         
-        Button addCliente = (Button)findViewById(R.id.add_cliente);
+        Button addCliente = (Button)findViewById(R.id.addVendedor);
 		addCliente.setOnClickListener(new LinkNovoClienteActivity());
     }
 	
