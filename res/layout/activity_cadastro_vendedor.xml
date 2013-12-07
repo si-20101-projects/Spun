@@ -124,12 +124,21 @@
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/btnCadVendedor"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignRight="@+id/editText3"
         android:layout_below="@+id/editText3"
-        android:layout_marginTop="58dp"
-        android:text="Salvar" />
+        android:layout_marginTop="52dp"
+        android:text="Cadastrar" />
+
+    <Button
+        android:id="@+id/btnCancelCadVendedor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnCadVendedor"
+        android:layout_alignBottom="@+id/btnCadVendedor"
+        android:layout_toLeftOf="@+id/btnCadVendedor"
+        android:text="Cancelar" />
 
 </RelativeLayout>

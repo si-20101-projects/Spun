@@ -8,6 +8,7 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.ListView;
 
 public class GerenciarClienteActivity extends Activity {
@@ -28,6 +29,9 @@ public class GerenciarClienteActivity extends Activity {
         
         Button addCliente = (Button)findViewById(R.id.addVendedor);
 		addCliente.setOnClickListener(new LinkNovoClienteActivity());
+		
+		ImageView home = (ImageView)findViewById(R.id.gerClienteToHome);
+        home.setOnClickListener(new LinkGerClienteToHomeActivity());
     }
 	
 	private class LinkNovoClienteActivity implements OnClickListener{
@@ -39,6 +43,17 @@ public class GerenciarClienteActivity extends Activity {
 			
 		}
     }
+	
+	private class LinkGerClienteToHomeActivity implements OnClickListener{
+
+		@Override
+		public void onClick(View b) {
+			Intent i = new Intent(GerenciarClienteActivity.this, MainActivity.class);
+			startActivity(i);
+
+		}
+	}
+
 	
 	
 	@Override

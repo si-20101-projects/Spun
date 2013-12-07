@@ -24,7 +24,7 @@
     </LinearLayout>
 
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/btnCancelCadCliente"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
@@ -33,13 +33,13 @@
         android:text="Cancelar" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btnCadCliente"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/button1"
-        android:layout_alignBottom="@+id/button1"
+        android:layout_alignBaseline="@+id/btnCancelCadCliente"
+        android:layout_alignBottom="@+id/btnCancelCadCliente"
         android:layout_alignRight="@+id/editText6"
-        android:text="Confirmar" />
+        android:text="Cadastrar" />
 
     <EditText
         android:id="@+id/EditText01"
@@ -66,7 +66,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/editText2"
         android:layout_marginTop="16dp"
-        android:layout_toLeftOf="@+id/button1"
+        android:layout_toLeftOf="@+id/btnCancelCadCliente"
         android:text="RG:"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 

@@ -32,10 +32,10 @@
             android:layout_width="match_parent"
             android:layout_height="313dp" >
         </ListView>
-
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/linearLayout3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
@@ -48,7 +48,14 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="23dp"
             android:text="Adicionar Vendedor" />
-
     </LinearLayout>
+
+    <ImageView
+        android:id="@+id/gerVendToHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/linearLayout3"
+        android:layout_alignLeft="@+id/linearLayout1"
+        android:src="@drawable/ic_home" />
 
 </RelativeLayout>

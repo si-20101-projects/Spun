@@ -29,19 +29,19 @@
         </activity>
         <activity
             android:name="ufpb.pas2.spun.GerenciarClienteActivity"
-            android:label="@string/title_activity_gerenciar_cliente" >
+            android:label="Gerenciar Cliente" >
         </activity>
         <activity
             android:name="ufpb.pas2.spun.CadastroVendedorActivity"
-            android:label="@string/title_activity_cadastro_vendedor" >
+            android:label="Cadastrar Vendedor" >
         </activity>
         <activity
             android:name="ufpb.pas2.spun.CadastroClienteActivity"
-            android:label="@string/novo_cliente_activity_name" >
+            android:label="Cadastrar Cliente" >
         </activity>
         <activity
             android:name="ufpb.pas2.spun.GerenciarVendedorActivity"
-            android:label="@string/title_activity_gerenciar_vendedor" >
+            android:label="Gerenciar Vendedor" >
         </activity>
     </application>
 
